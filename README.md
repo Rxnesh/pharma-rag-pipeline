@@ -65,3 +65,6 @@ Pharma Blob PDF
 - Improve boundary detection prompting for better multi-page document merging
 - Add a reranking step to improve retrieval precision
 - Separate timing metrics for retrieval vs. generation
+
+## Demo Link
+https://www.loom.com/share/c7179f561ff14eb19ceb9c36e4b69cb8
