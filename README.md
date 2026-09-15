@@ -7,7 +7,16 @@ A Retrieval-Augmented Generation (RAG) chatbot that classifies, indexes, and ans
 Pharmaceutical companies often receive document packages that bundle multiple document types (cover letters, certificates of quality, packaging specifications, compliance declarations) into a single PDF, with no clear boundaries between them. This project builds a pipeline that automatically segments, classifies, and indexes these documents, then answers user questions with cited sources and a confidence score.
 
 ## Pipeline
-
+Pharma Blob PDF
+→ Page Extraction (OCR fallback via Tesseract)
+→ Document Classification & Boundary Detection
+→ Text Chunking
+→ Embedding Generation (Sentence-Transformers)
+→ FAISS Vector Indexing
+→ Query Routing & Retrieval
+→ Context-Grounded Prompting
+→ Local LLM Generation (Phi-3-mini)
+→ Answer with Sources + Confidence Score
 
 ## Tech Stack
 
